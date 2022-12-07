@@ -9,7 +9,7 @@ COPY Gemfile* /myapp
 
 RUN apk update && \
     apk upgrade && \
-    apk add --no-cache linux-headers libxml2-dev make gcc libc-dev tzdata bash mysql-dev && \
+    apk add --no-cache linux-headers libxml2-dev make gcc libc-dev tzdata bash mysql-dev git && \
     apk add --no-cache -t .build-packages --no-cache build-base curl-dev mysql-client && \
     bundle install -j4 && \
     apk del --purge .build-packages
