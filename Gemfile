@@ -39,3 +39,6 @@ group :test do
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
 end
+
+gem 'mountable', path: 'mountable'
+gem 'full', path: 'full'

@@ -1,3 +1,9 @@
+PATH
+  remote: mountable
+  specs:
+    mountable (0.1.0)
+      rails (>= 7.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -236,6 +242,7 @@ DEPENDENCIES
   bootsnap
   capybara
   jbuilder
+  mountable!
   mysql2
   puma (~> 6.0)
   rails (~> 7.0.4)
