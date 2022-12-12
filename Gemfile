@@ -40,5 +40,5 @@ group :test do
   gem 'rubocop-rspec', require: false
 end
 
-gem 'mountable', path: 'mountable'
-gem 'full', path: 'full'
+gem 'mountable', path: 'engines/mountable'
+gem 'full', path: 'engines/full'
